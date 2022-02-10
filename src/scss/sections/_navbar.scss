@@ -1,0 +1,104 @@
+@import "../_custom.scss";
+
+.menu-top {
+    max-width: 100%;
+   height: 7rem;
+   border-bottom: 2px solid rgb(228, 228, 228); 
+   z-index:1;
+   overflow: hidden;
+   position: relative;
+}
+
+.menu {
+   max-width: 100%;
+   height: 7rem;
+   border-bottom: 2px solid rgb(228, 228, 228); 
+   z-index:1;
+   position: relative;
+}
+
+.menu-2 {
+    position: relative;
+    top:-7rem;
+    z-index: -1;
+    display: flex;
+    margin-bottom: -8rem;
+    width: 100%;
+ }
+
+ .menu-2.show {
+    max-width: 100%;
+    height: 7rem;
+    border-bottom: 2px solid rgb(228, 228, 228); 
+    background-color:#f8f9fa;
+    position: fixed;
+    display: flex;
+    top:0px;
+    margin-bottom: 0;
+    transition: top 0.5s;
+    z-index: 2;
+    justify-content: space-between;
+ }
+
+
+
+.dropmenu {
+    max-width: 100%;
+    position: relative;
+}
+
+.list-icon{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.bag-icon {
+    margin-right:2rem
+}
+
+.logo{
+    width: 110px;
+    height: 100px;
+    margin-left: 1.5rem;
+}
+
+.container {
+    height: 5rem;
+}
+
+.dropdown-container {
+    position: absolute;
+    z-index: 3;
+}
+
+.dropdown {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid rgb(228, 228, 228);
+    position: relative;
+}
+
+.dropdown-sections {
+    display: flex;
+    justify-content: center;
+    height: 13rem;
+}
+
+.display-1 {
+    display: none;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    z-index: 99999;
+}
+
+.dropdown-list {
+    list-style: none;
+    padding:0.8rem;
+}
+
+.dropdown-list li {
+    padding:0.4rem;
+    cursor: pointer;
+}
