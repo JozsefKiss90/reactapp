@@ -1,7 +1,7 @@
 {
   "name": "kreativ_szintezis",
   "version": "0.1.0",
-  "homepage": "https://silentstorm902.github.io/silentstorm902/ReactApp.git",
+  "homepage": "https://github.com/silentstorm902/reactapp.git",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
